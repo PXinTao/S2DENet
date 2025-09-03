@@ -44,7 +44,7 @@ Evaluated on 10 public ultrasound datasets:
 ## Citation
 
 ```bibtex
-@article{s2denet2024,
+@article{s2denet2025,
   title={S²DENet: Shallow Suppression and Deep Enhancement Network for Ultrasound Image Segmentation},
   author={Pang, Xintao and Yang, Jinlin and Gao, Zhifan and others},
   journal={Preprint},
