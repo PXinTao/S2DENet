@@ -18,6 +18,11 @@ S²DENet introduces a depth-differentiated hierarchical processing paradigm that
 - **Clinical Ready**: Suitable for resource-constrained environments
 
 ## Architecture
+### Hierarchical Processing Strategy
+
+![Hierarchical Depth-Differentiated Processing](hierarchical_processing.jpg)
+
+Figure 2. Depth-differentiated hierarchical processing: shallow layers focus on noise suppression, while deep layers emphasize semantic enhancement.
 
 ### Core Components
 - **Multi-order Differential Convolution (MDiffConv)**: High-frequency feature processing with depth-specific strategies
@@ -25,6 +30,11 @@ S²DENet introduces a depth-differentiated hierarchical processing paradigm that
 - **Hierarchical Design**: Specialized processing for different network depths
 
 ## Performance Comparison
+### Weight L2 Normalization in MDiffConv
+
+![Weight L2 Norm in MDiffConv](WeightL2Norm.jpg)
+
+Figure 3. L2 norm distribution of convolutional weights in MDiffConv, showing stronger responses for high-frequency structural patterns.
 
 | Method | AvgDice (%) | Params (M) | MACs (G) | FPS |
 |--------|-------------|------------|----------|-----|
