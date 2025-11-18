@@ -4,6 +4,11 @@
 
 ## Overview
 
+
+![S²DENet Architecture](Network.jpg)
+
+Figure 1. Overall architecture of **S²DENet**, illustrating shallow suppression in early layers and deep enhancement in later layers.
+
 S²DENet introduces a depth-differentiated hierarchical processing paradigm that employs shallow suppression in noise-dominated early layers and deep enhancement in semantically-rich later layers. This approach achieves state-of-the-art performance with minimal computational overhead.
 
 ### Key Features
